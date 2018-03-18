@@ -1,0 +1,129 @@
+body {
+    background-color: #441E13;
+    color: white;
+}
+
+div {
+    outline: 0px solid yellow;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 30px;
+}
+.logo {
+    width: 205px;
+    float: left;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.slogan {
+    width: 380px;
+    float: left;
+    color: #a37b71;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 18px;
+}
+.logoContainer {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.logoContainer {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow: hidden; /* make the div grow to accommodate float child elements */
+}
+/*navbar*/
+.nav {
+    background-color: rgba(0,0,0,0.25);
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 920px;
+}
+.nav ol {
+    padding: 18px 10px;
+}
+.nav li {
+    border-right: 1px solid #D4B364;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+.nav li:last-child {
+    border-right: none;
+}
+.bannercontainer{
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 215px;
+    background-color: #87a984;
+    overflow: hidden; /* make the div grow to accommodate float child elements */
+}
+.bannerImg{
+    height: 215px;
+    width:200px;
+    float:left;
+}
+.bannertext{
+    height: auto;
+    float:left;
+    font-family: sans-serif;
+    max-width:720px;
+    min-width:400px;
+}
+.bannertext > p, h1{
+    padding-left: 20px;
+}
+.contentcontainer{
+    max-width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    min-height: 400px;
+    overflow: hidden; /* make the div grow to accommodate float child elements */
+}
+.submenu{
+    width:200px;
+    max-height:inherit;
+    float:left;
+    background-color: #96afac;
+    height: 400px;
+}
+.content{
+    width:720px;
+    float: left;
+    background-color: #dbd8c5;
+    color:#577077;
+    height: 400px;
+}
+.content > h2,p{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+} 
+.submenu ol {
+    padding: 18px 10px;
+}
+.submenu li {
+    border-bottom: 1px solid #D4B364;
+    display: inline-block;
+    float: left;
+    width:130px;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+
